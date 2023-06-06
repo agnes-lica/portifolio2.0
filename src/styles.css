@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  /* Colors */
+  --background-color: #262922;
+  --primary-color: #ff0068;
+  --secondary-color: #90f921;
+  --white-color: #ffffff;
+  --gray-color: #abb2bf;
+
+  /* Text size */
+  --font-size-big: 32px;
+  --font-size-medium: 24px;
+  --font-size-small: 16px;
+
+  /* Text weight */
+  --font-weight-big: 600;
+  --font-weight-medium: 500;
+  --font-weight-small: 400;
+
+  /* Text family */
+  --fira-code-family: "Fira Code", monospace;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--white-color);
+  font-family: var(--fira-code-family);
+}

@@ -1,0 +1,17 @@
+<section *ngFor="let project of projects">
+  <div *ngIf="project.banner!">
+    <img src="{{ project.banner }}" alt="Projetc banner" />
+  </div>
+  <div>
+    <p>{{ project.technologies }}</p>
+  </div>
+  <div>
+    <h4>{{ project.title }}</h4>
+    <p>{{ project.description }}</p>
+    <p>Libs and frameworks:</p>
+    <p>{{ project.libsAndFrameworks }}</p>
+    <a href="{{ project.gitHub }}" target="_blank"
+      ><img src="../../../assets/Live ___.svg" alt="Button detail"
+    /></a>
+  </div>
+</section>
