@@ -9,6 +9,9 @@ import { AsideRigthComponent } from './components/aside-rigth/aside-rigth.compon
 import { AsideLeftComponent } from './components/aside-left/aside-left.component';
 import { ProjectCardComponent } from './components/project-card/project-card.component';
 import { SkillCardComponent } from './components/skill-card/skill-card.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { ProfileComponent } from './components/profile/profile.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { SkillCardComponent } from './components/skill-card/skill-card.component
     AsideRigthComponent,
     AsideLeftComponent,
     ProjectCardComponent,
-    SkillCardComponent
+    SkillCardComponent,
+    BannerComponent,
+    ProfileComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
