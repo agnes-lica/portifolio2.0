@@ -1,99 +1,47 @@
-<!-- header component -->
-<header><app-header></app-header></header>
+<section class="container">
+  <!-- asides components -->
+  <aside class="left"><app-aside-left></app-aside-left></aside>
 
-<!-- asides components -->
-<aside><app-aside-left></app-aside-left></aside>
-<aside><app-aside-rigth></app-aside-rigth></aside>
+  <section class="main">
+    <!-- header component -->
+    <header><app-header></app-header></header>
 
-<!-- main content -->
-<section>
-  <div>
-    <div>
-      <h1>I'm <span>Agnes</span> a <span>full-stack web developer</span></h1>
-      <p>
-        I craft responsive websites and data storage where technologies meet
-        creativity
-      </p>
-      <a class="linkbutton" href="">Contact me</a>
-    </div>
-    <div>
-      <img src="../assets/AgnesPhoto.png" alt="Agnes photo" />
+    <!-- main content -->
+    <app-banner></app-banner>
+
+    <!-- projects content -->
+    <section>
       <div>
-        <img src="../assets/pinksquare.svg" alt="Pink square" />
-        <p>Currently working on <span>Portfolio</span></p>
+        <h2><span>#</span>projects</h2>
+        <img src="../assets/pink line big.svg" alt="decorative pink line" />
+        <a href="">View all ~~></a>
       </div>
-    </div>
-  </div>
-  <img
-    src="../assets/quote.png"
-    alt="Citation: Accident is the first building block of evolution. From  Amelia Brandt, Interstellar"
-  />
-</section>
+      <app-project-card></app-project-card>
+    </section>
 
-<!-- projects content -->
-<section>
-  <div>
-    <h2><span>#</span>projects</h2>
-    <img src="../assets/pink line big.svg" alt="decorative pink line" />
-    <a href="">View all ~~></a>
-  </div>
-  <app-project-card></app-project-card>
-</section>
+    <!-- skill content -->
+    <section>
+      <div>
+        <h2><span>#</span>skills</h2>
+        <img src="../assets/pink line small.svg" alt="decorative pink line" />
+      </div>
+      <img
+        src="../assets/dots and flowers.svg"
+        alt="decorative dots and flowers"
+      />
+      <div>
+        <app-skill-card></app-skill-card>
+      </div>
+    </section>
 
-<!-- skill content -->
-<section>
-  <div>
-    <h2><span>#</span>skills</h2>
-    <img src="../assets/pink line small.svg" alt="decorative pink line" />
-  </div>
-  <img src="../assets/dots and flowers.svg" alt="decorative dots and flowers" />
-  <div>
-    <app-skill-card></app-skill-card>
-  </div>
-</section>
+    <!-- about me content -->
+    <app-profile></app-profile>
 
-<!-- about me content -->
-<section>
-  <div>
-    <h2><span>#</span>about me</h2>
-    <img src="../assets/pink line medium.svg" alt="decorative pink line" />
-  </div>
-  <div>
-    <article>
-      Hello, I’m Agnes! I’m a full-stack web developer based in Manaus, Brazil.
-      I can develop responsive websites from scratch and raise them into modern
-      user-friendly web experiences. Also, I can create databases structure to
-      function along-side with the front-end application. Transforming figma
-      designs and database needs into a websites and code has been my passion
-      for over a year since I discover coding as a essential part of my life. I
-      always strive to learn about the newest technologies and frameworks.
-    </article>
-    <img src="../assets/Agnes photo2.png" alt="agnes photo" />
-  </div>
-</section>
+    <!-- contacts content -->
+    <app-contacts></app-contacts>
 
-<!-- contacts content -->
-<section>
-  <div>
-    <h2><span>#</span>contacts</h2>
-    <img src="../assets/pink line extra small.svg" alt="decorative pink line" />
-  </div>
-  <div>
-    <p>
-      I’m interested in jobs or freelance opportunities. However, if you have
-      other request or question, don’t hesitate to contact me.
-    </p>
-  </div>
-  <div>
-    <div>
-      <p>Message me here</p>
-      <a href="https://www.linkedin.com/in/agnesmr/" target="_blank"
-        ><img src="../assets/Linkedin.svg" /> AgnesMR</a
-      >
-      <p><img src="../assets/email.svg" /> agnes.lica@gmail.com</p>
-    </div>
-  </div>
+    <!-- footer component -->
+    <footer><app-footer></app-footer></footer>
+  </section>
+  <aside class="right"><app-aside-rigth></app-aside-rigth></aside>
 </section>
-
-<!-- footer component -->
-<footer><app-footer></app-footer></footer>

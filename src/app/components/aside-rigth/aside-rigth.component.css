@@ -1,0 +1,16 @@
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  box-sizing: border-box;
+  align-items: end;
+}
+
+img {
+  width: 40px;
+}
+
+.rotated {
+  transform: rotate(180deg);
+}
