@@ -8,11 +8,13 @@
   display: table-cell;
   vertical-align: top;
   background-color: var(--second-background-color);
+  padding: 1rem;
+  width: 90%;
 }
 
 .left {
   height: 100%;
-  width: 100px;
+  width: 2rem;
   z-index: 2;
   float: left;
   display: table-cell;
@@ -22,7 +24,7 @@
 
 .right {
   height: 100%;
-  width: 100px;
+  width: 2rem;
   float: right;
   vertical-align: top;
   position: relative;
