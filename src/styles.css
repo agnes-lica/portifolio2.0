@@ -29,6 +29,8 @@ body {
   margin: 0px;
   max-width: 100vw;
   padding: 0;
+  border: red solid 2px;
+  
 }
 
 /*lists*/
@@ -56,6 +58,11 @@ a:hover {
   color: var(--white-color);
 }
 
+a:hover > span{
+  color: var(--secondary-color);
+}
+
+
 /*link that looks like a button*/
 
 .linkbutton {
@@ -73,7 +80,7 @@ a:hover {
 /*select*/
 select {
   background-color: transparent;
-  border: none;
+  border: none !important;
 
   font-size: var(--font-size-small);
   font-weight: var(--font-weight-big);
