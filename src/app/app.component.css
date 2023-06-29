@@ -69,3 +69,31 @@ app-project-card{
   justify-content: space-between;
   gap: 16px;
 }
+
+/*Skills*/
+app-skill-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 16px;
+}
+
+.skillCardSection{
+  width: 70%;
+
+}
+
+.skillsContainer > div{
+  display: flex;
+  flex-direction: row;  
+}
+
+.contentDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.decoration{
+  width: 30%;
+}

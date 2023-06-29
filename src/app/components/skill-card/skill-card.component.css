@@ -1,0 +1,20 @@
+section{
+    border: 1px solid var(--gray-color);
+    width: 15rem;
+    overflow-wrap: break-word;
+}
+
+section > p:nth-child(1){
+    color: var(--white-color);
+    border-bottom: 1px solid var(--gray-color);
+}
+
+
+
+p{
+    color: var(--gray-color);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-small);
+    margin: 0px;
+    padding: 8px;
+}
