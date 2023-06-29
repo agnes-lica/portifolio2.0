@@ -12,6 +12,7 @@
   width: 90%;
 }
 
+/*Asides*/
 .left {
   height: 100%;
   width: 2rem;
@@ -29,3 +30,35 @@
   vertical-align: top;
   position: relative;
 }
+
+/*Text*/
+h2{
+  color: var(--secondary-color);
+  font-size: var(--font-size-big);
+  font-weight: var(--font-weight-medium);
+}
+
+span{
+  color: var(--primary-color);
+  font-size: var(--font-size-big);
+  font-weight: var(--font-weight-medium);
+}
+
+a{
+  color: var(--secondary-color);
+}
+
+/*Projects*/
+.projectHeader{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projectHeader > div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
