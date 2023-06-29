@@ -1,0 +1,55 @@
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.containerBanner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.containerBanner:nth-child(1) > div:nth-child(1) > p{
+    margin-bottom: 3rem;
+}
+
+h1{
+    font-size: var(--font-size-big);
+}
+
+h1>span:nth-child(1){
+    color: var(--secondary-color);
+}
+
+h1>span:nth-child(2){
+    color: var(--primary-color);
+}
+
+p{
+    color: var(--gray-color);
+    font-size: var(--font-size-small);
+}
+
+.photo{
+    width: 23rem;
+    margin-bottom: -4rem;
+}
+
+.statusContainer{
+    border: 1px solid var(--gray-color);
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-left: 1rem;
+
+}
+
+.statusContainer > p > span{
+    color: var(--white-color)
+}
+
+section > img{
+    width: 45rem;
+    margin: auto;
+}
