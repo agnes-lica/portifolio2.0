@@ -45,20 +45,27 @@ span{
 }
 
 a{
-  color: var(--secondary-color);
+  color: var(--gray-color);
+  cursor: default;
 }
 
 /*Projects*/
-.projectHeader{
+.HeaderCard{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
-.projectHeader > div{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.HeaderCard > div{
+  display:flex;
+ flex-direction: row;
 }
 
+
+app-project-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+}

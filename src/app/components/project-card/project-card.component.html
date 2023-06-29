@@ -1,11 +1,11 @@
 <section *ngFor="let project of projects">
-  <div *ngIf="project.banner!">
+  <div class="imgDiv" *ngIf="project.banner!">
     <img src="{{ project.banner }}" alt="Projetc banner" />
   </div>
-  <div>
+  <div class="technologiesDiv">
     <p>{{ project.technologies }}</p>
   </div>
-  <div>
+  <div class="informationDiv">
     <h4>{{ project.title }}</h4>
     <p>{{ project.description }}</p>
     <p>Libs and frameworks:</p>
