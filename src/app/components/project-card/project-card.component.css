@@ -1,0 +1,40 @@
+section{
+    border: 1px var(--gray-color) solid;
+    width: 22rem;
+    overflow-wrap: break-word;
+    height: fit-content;
+}
+
+.imgDiv > img{
+    width: 100%;
+}
+
+.technologiesDiv{
+    padding: 8px;
+    border-bottom: var(--gray-color) solid 1px;
+}
+
+.informationDiv{
+    padding: 16px;
+    border-bottom: var(--gray-color) solid 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+h4{
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-medium);
+    margin: 0px;
+}
+
+p{
+    color: var(--gray-color);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-small);
+    margin: 0px;
+}
+
+a{
+    width: fit-content;
+}
