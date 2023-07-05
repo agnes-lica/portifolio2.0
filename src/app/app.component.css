@@ -59,7 +59,8 @@ a{
 
 .HeaderCard > div{
   display:flex;
- flex-direction: row;
+  flex-direction: row;
+  gap: 1rem;
 }
 
 
@@ -83,9 +84,10 @@ app-skill-card{
 
 }
 
-.skillsContainer > div{
+.componentContainer > div{
   display: flex;
   flex-direction: row;  
+  gap: 1rem;
 }
 
 .contentDiv{
@@ -97,3 +99,9 @@ app-skill-card{
 .decoration{
   width: 30%;
 }
+
+/*profile*/
+app-profile{
+  width: 100%;
+}
+
