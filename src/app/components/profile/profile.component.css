@@ -6,7 +6,8 @@ section{
 }
 
 article{
-    width: 32rem;
+    min-width: 32rem;
+    max-width: 60rem;
     color: var(--gray-color);
     font-weight: var(--font-weight-small);
     font-size: var(--font-size-small);

@@ -5,7 +5,8 @@ section{
 }
 
 section > div:nth-child(1){
-    width: 32rem;
+    min-width: 32rem;
+    max-width: 60rem;
 }
 
 p{
