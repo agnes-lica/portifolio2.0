@@ -43,8 +43,8 @@ p{
 }
 
 .contactButtons > a:visited{ 
-        text-decoration: none;
-        color: var(--gray-color);
+    text-decoration: none;
+    color: var(--gray-color);
 }
 
 .contactButtons > p:nth-child(1){
