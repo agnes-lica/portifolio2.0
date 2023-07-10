@@ -20,4 +20,4 @@ Then run `ng serve` to localy run the app.
 
 ## Observations
 
-This page is still in construction, I'm building it as I learn Angular. Thank you for visiting. If you have any comments or sugestions fell free to contact me.
+This page is still in construction, I'm building it as I learn Angular. Thank you for visiting. If you have any comments or sugestions feel free to contact me.
