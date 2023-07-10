@@ -9,7 +9,7 @@ I used Angular CLI version 16.0.3, and some libs and freameworks as:
 ## How to start
 
 If you want to run this project localy you cand fork the project, copy it with the SSH key into your local server.
-Make sure to have the same ou superior version of angular in your work space.
+Make sure to have the same or superior version of angular in your work space.
 Then run `ng serve` to localy run the app.
 
 ## Organization
