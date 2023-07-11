@@ -1,0 +1,55 @@
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section > div:nth-child(1){
+    min-width: 32rem;
+    max-width: 60rem;
+}
+
+p{
+    margin: 0;
+    color: var(--gray-color);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
+}
+
+.contactButtons{
+    border: 1px solid var(--gray-color);
+    padding: 15px;
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.contactButtons > p{
+    font-weight: var(--font-weight-small);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+
+.contactButtons > a{
+    color: var(--gray-color);
+    font-weight: var(--font-weight-small);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    margin-left: -4px;
+}
+
+.contactButtons > a:visited{ 
+    text-decoration: none;
+    color: var(--gray-color);
+}
+
+.contactButtons > p:nth-child(1){
+    color: var(--white-color);
+    margin-bottom: 11px;
+}
+

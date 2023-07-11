@@ -12,6 +12,7 @@
   width: 90%;
 }
 
+/*Asides*/
 .left {
   height: 100%;
   width: 2rem;
@@ -29,3 +30,83 @@
   vertical-align: top;
   position: relative;
 }
+
+/*Text*/
+h2{
+  color: var(--secondary-color);
+  font-size: var(--font-size-big);
+  font-weight: var(--font-weight-medium);
+}
+
+span{
+  color: var(--primary-color);
+  font-size: var(--font-size-big);
+  font-weight: var(--font-weight-medium);
+}
+
+a{
+  color: var(--gray-color);
+  cursor: default;
+}
+
+/*Projects*/
+.HeaderCard{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.HeaderCard > div{
+  display:flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+
+app-project-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+/*Skills*/
+app-skill-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 16px;
+}
+
+.skillCardSection{
+  width: 70%;
+
+}
+
+.componentContainer > div{
+  display: flex;
+  flex-direction: row;  
+  gap: 1rem;
+}
+
+.contentDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.decoration{
+  width: 30%;
+}
+
+/*profile*/
+app-profile{
+  width: 100%;
+}
+
+/*contacts*/
+app-contacts{
+  width: 100%;
+}
+

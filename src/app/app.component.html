@@ -10,36 +10,61 @@
     <app-banner></app-banner>
 
     <!-- projects content -->
-    <section>
-      <div>
-        <h2 id="projects"><span>#</span>projects</h2>
-        <img src="../assets/pink line big.svg" alt="decorative pink line" />
-        <a href="">View all ~~></a>
+    <section class="componentContainer">
+      <div class="HeaderCard">
+        <div>
+          <h2 id="projects"><span>#</span>projects</h2>
+          <img src="../assets/pink line big.svg" alt="decorative pink line" />
+        </div>
+        <div>
+          <a href="#projectContainer">View all ~~></a>
+        </div>
       </div>
-      <app-project-card></app-project-card>
+      <div class="projectCardsSection">
+        <app-project-card></app-project-card>
+      </div>
     </section>
 
     <!-- skill content -->
-    <section>
+    <section class="componentContainer">
       <div>
         <h2 id="skills"><span>#</span>skills</h2>
         <img src="../assets/pink line small.svg" alt="decorative pink line" />
       </div>
-      <img
-        src="../assets/dots and flowers.svg"
-        alt="decorative dots and flowers"
-      />
-      <div>
-        <app-skill-card></app-skill-card>
-      </div>
+      <div class="contentDiv">
+        <img class="decoration"
+         src="../assets/dots and flowers.svg"
+         alt="decorative dots and flowers"
+        />
+        <div class="skillCardSection">
+          <app-skill-card></app-skill-card>
+        </div>
+     </div>
     </section>
 
     <!-- about me content -->
-    <app-profile></app-profile>
+    <section class="componentContainer">
+      <div>
+        <h2 id="aboutMe"><span>#</span>about me</h2>
+        <img src="../assets/pink line medium.svg" alt="decorative pink line" />
+      </div>
+      <div class="profileSection">
+        <app-profile></app-profile>
+      </div>
+    </section>
+    
 
     <!-- contacts content -->
-    <app-contacts></app-contacts>
-
+    <section class="componentContainer"> 
+      <div>
+        <h2 id="contacts"><span>#</span>contacts</h2>
+        <img src="../assets/pink line extra small.svg" alt="decorative pink line" />
+      </div>
+      <div class="contactSection">
+        <app-contacts></app-contacts>
+      </div>
+    </section>
+    
     <!-- footer component -->
     <footer><app-footer></app-footer></footer>
   </section>
