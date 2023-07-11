@@ -52,6 +52,11 @@ a:visited {
   color: var(--gray-color);
 }
 
+a:active {
+  text-decoration: none;
+  color: var(--gray-color);
+}
+
 a:hover {
   color: var(--white-color);
 }
