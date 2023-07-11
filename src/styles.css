@@ -29,7 +29,6 @@ body {
   margin: 0px;
   max-width: 100vw;
   padding: 0;
-  border: red solid 2px;
   
 }
 
@@ -50,6 +49,11 @@ a > span {
 }
 
 a:visited {
+  text-decoration: none;
+  color: var(--gray-color);
+}
+
+a:active {
   text-decoration: none;
   color: var(--gray-color);
 }
