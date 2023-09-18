@@ -18,6 +18,19 @@ Then run `ng serve` to localy run the app.
        - components (this fold include every component folder of the aplication)
     - assets (this fold hold every image and icons for the application)
 
+
+## Contact
+
+feel free to contact me in any of these plataforms:
+
+- [github](https://www.github.com/agnes-lica)
+- [LinkedIn](https://www.linkedin.com/in/agnesmr/)
+- E-mail: agnes.lica@gmail.com
+
+## Deploy
+
+- [Potfolio](https://portifolio2-0-git-main-agnes-lica.vercel.app)
+
 ## Observations
 
 This page is still in construction, I'm building it as I learn Angular. Thank you for visiting. If you have any comments or sugestions feel free to contact me.
